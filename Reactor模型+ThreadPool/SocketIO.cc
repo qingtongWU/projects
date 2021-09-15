@@ -1,9 +1,3 @@
- ///
- /// @file    SocketIO.cc
- /// @author  lemon(haohb13@gmail.com)
- /// @date    2021-06-16 16:28:14
- ///
- 
 #include "SocketIO.hpp"
 
 #include <stdio.h>
@@ -11,10 +5,12 @@
 #include <errno.h>
 #include <sys/socket.h>
 #include <sys/types.h>
+
 void get(){
 	cout << "234\n";
 }
-namespace wd
+
+namespace wq
 {
 void get(){
 	cout << "123\n";
@@ -99,5 +95,4 @@ int SocketIO::writen(const char * buff, int len)
 	return len - left;
 }
 
-
-}//end of namespace wd
+}//end of namespace wq
