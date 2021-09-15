@@ -1,11 +1,4 @@
- ///
- /// @file    Socket.cc
- /// @author  lemon(haohb13@gmail.com)
- /// @date    2021-06-16 15:01:45
- ///
- 
 #include "Socket.hpp"
-
 #include <stdio.h>
 #include <unistd.h>
 #include <errno.h>
@@ -14,7 +7,7 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 
-namespace wd
+namespace wq
 {
 
 Socket::Socket()
@@ -46,4 +39,4 @@ void Socket::setNonblock()
 	::fcntl(_fd, F_SETFL, flags);
 }
 
-}//end of namespace wd
+}//end of namespace wq
