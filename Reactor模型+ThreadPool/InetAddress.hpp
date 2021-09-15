@@ -1,9 +1,3 @@
- ///
- /// @file    InetAddress.hpp
- /// @author  lemon(haohb13@gmail.com)
- /// @date    2021-06-16 14:29:18
- ///
- 
 #ifndef __WD_INETADDRESS_HPP__
 #define __WD_INETADDRESS_HPP__
 
@@ -11,7 +5,7 @@
 #include <string>
 using std::string;
 
-namespace wd
+namespace wq
 {
 
 class InetAddress
@@ -28,8 +22,6 @@ private:
 	struct sockaddr_in _addr;
 };
 
-}//end of namespace wd
- 
- 
+}//end of namespace wq
  
 #endif
