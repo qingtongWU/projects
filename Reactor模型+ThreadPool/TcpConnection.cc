@@ -1,15 +1,9 @@
- ///
- /// @file    TcpConnection.cc
- /// @author  lemon(haohb13@gmail.com)
- /// @date    2021-06-16 16:10:24
- ///
- 
 #include "TcpConnection.hpp"
 
 #include <string.h>
 #include <sstream>
 
-namespace wd
+namespace wq
 {
 
 TcpConnection::TcpConnection(int fd)
@@ -68,4 +62,4 @@ string TcpConnection::toString() const
 	return oss.str();
 }
 
-}//end of namesapce wd
+}//end of namesapce wq
