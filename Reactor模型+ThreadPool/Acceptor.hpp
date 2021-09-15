@@ -1,16 +1,10 @@
- ///
- /// @file    Acceptor.hpp
- /// @author  lemon(haohb13@gmail.com)
- /// @date    2021-06-16 15:14:55
- ///
- 
-#ifndef __WD_ACCEPTOR_HPP__
-#define __WD_ACCEPTOR_HPP__
+#ifndef __WQ_ACCEPTOR_HPP__
+#define __WQ_ACCEPTOR_HPP__
 
 #include "InetAddress.hpp"
 #include "Socket.hpp"
 
-namespace wd
+namespace wq
 {
 
 class Acceptor
@@ -36,8 +30,6 @@ private:
 	InetAddress _addr;
 };
 
-}//end of namespace wd
- 
- 
+}//end of namespace wq
  
 #endif
