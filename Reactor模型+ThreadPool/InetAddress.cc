@@ -1,16 +1,10 @@
- ///
- /// @file    InetAddress.cc
- /// @author  lemon(haohb13@gmail.com)
- /// @date    2021-06-16 14:35:49
- ///
- 
-#include "InetAddress.hpp"
+ #include "InetAddress.hpp"
 
 #include <string.h>
 #include <arpa/inet.h>
 #include <sys/socket.h>
 
-namespace wd
+namespace wq
 {
 
 InetAddress::InetAddress(unsigned short port, const string & ip)
@@ -36,4 +30,4 @@ unsigned short InetAddress::port() const
 }
 
 
-}//end of namespace wd
+}//end of namespace wq
