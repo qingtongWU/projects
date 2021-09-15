@@ -1,14 +1,7 @@
- ///
- /// @file    Noncopyable.hpp
- /// @author  lemon(haohb13@gmail.com)
- /// @date    2021-06-16 14:56:22
- ///
- 
-#ifndef __WD_NONCOPYABLE_HPP__
-#define __WD_NONCOPYABLE_HPP__
+#ifndef __WQ_NONCOPYABLE_HPP__
+#define __WQ_NONCOPYABLE_HPP__
 
-
-namespace wd
+namespace wq
 {
 class Noncopyable
 {
@@ -21,8 +14,6 @@ protected:
 
 };
 
-}//end of namespace wd
- 
- 
+}//end of namespace wq
  
 #endif
