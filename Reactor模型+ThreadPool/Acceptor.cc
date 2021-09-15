@@ -1,12 +1,6 @@
- ///
- /// @file    Acceptor.cc
- /// @author  lemon(haohb13@gmail.com)
- /// @date    2021-06-16 15:19:09
- ///
- 
 #include "Acceptor.hpp"
 
-namespace wd
+namespace wq
 {
 void Acceptor::ready()
 {
@@ -56,6 +50,4 @@ int Acceptor::accept()
 	return peerfd;
 }
 
-
-
-}//end of namespace wd
+}
