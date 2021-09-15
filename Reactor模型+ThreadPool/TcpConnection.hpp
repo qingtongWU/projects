@@ -1,11 +1,5 @@
- ///
- /// @file    TcpConnection.hpp
- /// @author  lemon(haohb13@gmail.com)
- /// @date    2021-06-16 16:03:56
- ///
- 
-#ifndef __WD_TCPCONNECTION_HPP__
-#define __WD_TCPCONNECTION_HPP__
+#ifndef __WQ_TCPCONNECTION_HPP__
+#define __WQ_TCPCONNECTION_HPP__
 
 #include "Noncopyable.hpp"
 
@@ -13,8 +7,7 @@
 #include "SocketIO.hpp"
 #include "InetAddress.hpp"
 
-
-namespace wd
+namespace wq
 {
 
 class TcpConnection : Noncopyable
@@ -40,8 +33,6 @@ private:
 	bool _shutdownWrite;
 };
 
-}//end of namespace wd
- 
- 
- 
+}//end of namespace wq
+  
 #endif
