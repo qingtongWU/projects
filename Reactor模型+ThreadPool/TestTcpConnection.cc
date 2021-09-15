@@ -1,9 +1,3 @@
- ///
- /// @file    TestTcpConnection.cc
- /// @author  lemon(haohb13@gmail.com)
- /// @date    2021-06-16 17:24:19
- ///
- 
 #include "Acceptor.hpp"
 #include "TcpConnection.hpp"
 
