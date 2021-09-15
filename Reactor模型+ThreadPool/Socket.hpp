@@ -1,15 +1,9 @@
- ///
- /// @file    Socket.hpp
- /// @author  lemon(haohb13@gmail.com)
- /// @date    2021-06-16 14:55:01
- ///
- 
-#ifndef __WD_SOCKET_HPP__
-#define __WD_SOCKET_HPP__
+#ifndef __WQ_SOCKET_HPP__
+#define __WQ_SOCKET_HPP__
 
 #include "Noncopyable.hpp"
 
-namespace wd
+namespace wq
 {
 
 class Socket : Noncopyable
@@ -27,8 +21,6 @@ private:
 	int _fd;
 };
 
-}//end of namespace wd
- 
- 
+}//end of namespace wq
  
 #endif
